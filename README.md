@@ -8,10 +8,10 @@ For this project we will create a dynamic table to Dana's website using Javascri
 
 UFO database contains a lot of infomation displayed in a table. However,a filter was created to give the user ability to search by selecting any of the following criteria: Date, City, State, Country and Shape, narrow the amount of data and support user analysis.
 
-Data: mm/dd/yyyy
-City: Full Name of city 
-State: XX 
-Shape: Light,circle, triangle, unknown, etc.
+- Data: mm/dd/yyyy
+- City: Full Name of city 
+- State: XX 
+- Shape: Light,circle, triangle, unknown, etc.
 
 ![image](https://user-images.githubusercontent.com/120151872/236641301-4f87f121-8668-4bf0-9e37-61ebcffe29b5.png)
 
@@ -23,7 +23,7 @@ A drawback of this page is that once the filter is selected, there is not a opti
 
 Recommendations for further development:
 
-- Insert a reset button for the filter so the user can do it automatically instead to deleted each field manually.
-- Drop down box to choose the filter criteria.
+- Insert a reset button for the filter so the users can do it automatically instead to deleted each field manually.
+- Drop down menu to choose the filter criteria.
 - Insert a filter for the duration considerating a range.
-- 
+
