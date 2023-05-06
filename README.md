@@ -2,24 +2,28 @@
 
 ## Overview.
 
-For this project we will create a dynamic table to Dana's website using Javascript and HTML, allowing the users filter information for multiple criteria at same time in order to provide a better analysis.
+For this project we will create a dynamic table to Dana's website using Javascript and HTML, allowing the users filter information for multiple criteria at same time in order to provide them a better analysis.
 
-## Summary.
+## Results.
 
-UFO database contains a lot of infomation displayed in a table. To make it user friendly where created . This information is displayed in a neat table on a webpage. Unfortunately, there is a lot of information, which makes it cumbersome for users to scroll and view data that would be of interest to them. To ease viewing data, filtering options have been added to the webpage.
+UFO database contains a lot of infomation displayed in a table. However,a filter was created to give the user ability to search by selecting any of the following criteria: Date, City, State, Country and Shape, narrow the amount of data and support user analysis.
 
-A user is given the oppurtunity to filter data based on Date, City, State, Country and Shape of UFO sighted or a combination of any of these criteria. This would allow the users to interactively use the webpage to view only required data.
+Data: mm/dd/yyyy
+City: Full Name of city 
+State: XX 
+Shape: Light,circle, triangle, unknown, etc.
 
-Here is an example :-
+![image](https://user-images.githubusercontent.com/120151872/236641301-4f87f121-8668-4bf0-9e37-61ebcffe29b5.png)
 
-When the webpage is loaded for the first time, all the UFO data is loaded and displayed in a table format as UFO Sightings.
+![image](https://user-images.githubusercontent.com/120151872/236641288-3f48013e-a149-473c-912b-406be0d05c16.png)
 
-Now the user has the ability to refine their search by selecting any of the filter criteria. Using the "Date" field of 1/4/2010, the table is considerably reduced as it displays only the sightings on 1/4/2010 as seen here.
+## Summary
 
-To drill down further the user can select the "City" as "ca'. The results are seen here.
+A drawback of this page is that once the filter is selected, there is not a option to reset or clean information that is contained in each box.
 
-A user may also choose to filter the data based on "State" as 'ca' and "shape" as 'light' alone. The results are seen here.
+Recommendations for further development:
 
-This dynamic webpage gives total control to users to filter based on any or multiple criteria as they wish and the page will refresh accordingly as soon as a change is made.
-
-The End result is a presentation of data that is both visually appealing and interactive.
+- Insert a reset button for the filter so the user can do it automatically instead to deleted each field manually.
+- Drop down box to choose the filter criteria.
+- Insert a filter for the duration considerating a range.
+- 
